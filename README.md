@@ -12,7 +12,7 @@ El dataset fue seleccionado por su naturaleza intencionalmente "sucia" (contiene
 - Visualización: Matplotlib, Seaborn
 
 ## Fases del Análisis
-El proceso se dividió en cuatro fases principales, detalladas en el notebook Proyecto.ipynb:
+El proceso se dividió en cuatro fases principales, detalladas en el notebook eda.ipynb:
 
 - Carga y Estructura: Inspección de dimensiones, primeras filas, y detección inicial de tipos de datos incorrectos.
 

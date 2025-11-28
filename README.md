@@ -4,14 +4,14 @@ El objetivo principal es aplicar un flujo de trabajo ordenado de ciencia de dato
 
 El dataset fue seleccionado por su naturaleza intencionalmente "sucia" (contiene nulos, errores de formato, inconsistencias y duplicados), lo que permite demostrar habilidades sólidas en la corrección y preparación de datos antes de cualquier modelado avanzado.
 
-### Herramientas Utilizadas
+## Herramientas Utilizadas
 - Lenguaje: Python
 
 - Manipulación de Datos: Pandas, NumPy
 
 - Visualización: Matplotlib, Seaborn
 
-### Fases del Análisis
+## Fases del Análisis
 El proceso se dividió en cuatro fases principales, detalladas en el notebook Proyecto.ipynb:
 
 - Carga y Estructura: Inspección de dimensiones, primeras filas, y detección inicial de tipos de datos incorrectos.
@@ -22,7 +22,7 @@ El proceso se dividió en cuatro fases principales, detalladas en el notebook Pr
 
 - Visualización Básica: Generación de gráficos para describir las características del dataset limpio.
 
-### Proceso de Limpieza y Justificación
+## Proceso de Limpieza y Justificación
 La fase de limpieza fue crítica debido a la mala calidad inicial del dataset. Las principales acciones aplicadas fueron:
 
 A. Corrección de Tipos de Datos
@@ -36,7 +36,7 @@ B. Tratamiento de Valores Nulos Críticos
 C. Normalización Categórica
 Se aplicó la función .str.title() a las columnas categóricas (Item, Location, Payment Method) para asegurar la uniformidad en el conteo de categorías (ej., unificando 'cafe', 'CAFE' y 'Cafe' en 'Cafe').
 
-### Hallazgos Clave de las Visualizaciones
+## Hallazgos Clave de las Visualizaciones
 - Distribución del Gasto (Histograma): La mayoría de las transacciones se concentran en un gasto total muy bajo, lo que es común en negocios de café.
 
 - Productos Estrella (Gráfica de Barras): 'Coffee' y 'Tea' son, por amplio margen, los productos más vendidos en términos de volumen de transacciones.
